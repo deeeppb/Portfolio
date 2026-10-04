@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nicholas Boston – Computer Engineering Student</title>
+  <meta name="description" content="Portfolio of Arnav Devlekar, computer engineering student at Xavier Institute of Engineering, Mahim.">
+  <meta name="theme-color" content="#0f766e">
+  <meta property="og:title" content="Arnav Devlekar – Computer Engineering Student">
+  <meta property="og:description" content="Projects in computer vision and web development, built with Python, HTML5 and CSS.">
+  <link rel="icon" href="images/photo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <input type="checkbox" id="theme" class="sr">
+
+  <header class="topbar">
+    <div class="wrap bar">
+      <a class="brand" href="#top">Nicholas Boston</a>
+      <input type="checkbox" id="menu" class="sr">
+      <label class="burger" for="menu" aria-label="Open menu">&#9776;</label>
+      <nav aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#journey">Journey</a>
+        <a class="btn small" href="#contact">Contact</a>
+        <label class="switch" for="theme"><span class="sr">Toggle dark mode</span></label>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="blobs" aria-hidden="true"><i></i><i></i></div>
+
+    <section class="hero wrap" id="top">
+      <div class="hero-text">
+        <p class="status"><span class="dot" aria-hidden="true"></span>Open to internships and junior roles</p>
+        <h1>Hi, I'm Nicholas Boston.</h1>
+        <p class="type">I build smart,useful software.</p>
+        <p class="sub">Computer engineering student at Xavier Institute of Engineering, Mahim. I work on computer vision projects like number plate and hand gesture recognition, and I build clean websites with HTML5 and CSS.</p>
+        <div class="cta">
+          <a class="btn" href="#projects">View my work</a>
+          <a class="btn ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <!-- CHANGE THE PHOTO: copy your picture into the images folder, then edit src (for example images/arnav.jpg) -->
+      <div class="ring"><img class="avatar" src="C:\Users\urja0\Downloads\files (1)\profile.jpg" alt="Portrait of Arnav Devlekar" width="400" height="400"></div>
+    </section>
+
+    <div class="marquee" aria-label="Technologies I use">
+      <div class="track">
+        <ul><li>Python</li><li>OpenCV</li><li>MediaPipe</li><li>Computer vision</li><li>HTML5</li><li>CSS3</li><li>Git</li><li>GitHub</li></ul>
+        <ul aria-hidden="true"><li>Python</li><li>OpenCV</li><li>MediaPipe</li><li>Computer vision</li><li>HTML5</li><li>CSS3</li><li>Git</li><li>GitHub</li></ul>
+      </div>
+    </div>
+
+    <section class="wrap" id="about">
+      <h2>About me</h2>
+      <div class="two">
+        <p>I'm a computer engineering student at Xavier Institute of Engineering in Mahim, Mumbai. I like turning ideas into working programs, especially ones that let a computer see and react to the real world.</p>
+        <p>My projects so far cover reading vehicle number plates, recognising hand gestures through a webcam, and building a website for a shop. I keep my work on GitHub and commit often so the history shows how each project grew.</p>
+      </div>
+      <div class="stats">
+        <div class="stat"><b class="count" style="--to:3"></b>Projects built</div>
+        <div class="stat"><b class="count" style="--to:2"></b>Computer vision projects</div>
+        <div class="stat"><b class="count" style="--to:1"></b>Live website</div>
+      </div>
+    </section>
+
+    <section class="wrap" id="projects">
+      <h2>Selected projects</h2>
+      <p class="hint">Hover over a card (or tap it) to flip it, then choose "View details".</p>
+      <div class="grid">
+        <figure class="flip" tabindex="0"><div class="inner">
+          <div class="face front"><img src="C:\Users\urja0\Downloads\files (1)\anpr.jpg" alt="Number plate DL 3C BP 2331 detected on a car by the ANPR system" width="700" height="427" loading="lazy"><figcaption><h3>ANPR: Number Plate Recognition</h3></figcaption></div>
+          <div class="face back"><h3>ANPR</h3><p>Finds a vehicle's number plate in an image or video and reads the characters automatically.</p>
+            <ul class="chips"><li>Python</li><li>OpenCV</li><li>OCR</li></ul>
+            <p class="links"><a href="#p1">View details</a><a href="#">GitHub</a></p></div>
+        </div></figure>
+        <figure class="flip" tabindex="0"><div class="inner">
+          <div class="face front"><img src="C:\Users\urja0\Downloads\files (1)\handgesture.jpg" alt="Hand gesture recognition showing 21 key points on an open hand" width="578" height="347" loading="lazy"><figcaption><h3>Hand Gesture Recognition</h3></figcaption></div>
+          <div class="face back"><h3>Hand Gesture Recognition</h3><p>Tracks a hand through the webcam in real time and tells which gesture is being shown.</p>
+            <ul class="chips"><li>Python</li><li>OpenCV</li><li>MediaPipe</li></ul>
+            <p class="links"><a href="#p2">View details</a><a href="#">GitHub</a></p></div>
+        </div></figure>
+        <figure class="flip" tabindex="0"><div class="inner">
+          <div class="face front"><img src="C:\Users\urja0\Downloads\files (1)\shop.jpg" alt="Preview of the shop website" width="600" height="400" loading="lazy"><figcaption><h3>Website for a Shop</h3></figcaption></div>
+          <div class="face back"><h3>Shop Website</h3><p>A fast, mobile-friendly website that shows a shop's products and how to reach it.</p>
+            <ul class="chips"><li>HTML5</li><li>CSS</li><li>Git</li></ul>
+            <p class="links"><a href="#p3">View details</a><a href="#">Live site</a><a href="#">GitHub</a></p></div>
+        </div></figure>
+      </div>
+    </section>
+
+    <section class="wrap" id="skills">
+      <h2>Skills</h2>
+      <ul class="bars">
+        <li style="--v:85%"><span>Python</span><i></i><em>85%</em></li>
+        <li style="--v:75%"><span>OpenCV</span><i></i><em>75%</em></li>
+        <li style="--v:90%"><span>HTML5</span><i></i><em>90%</em></li>
+        <li style="--v:85%"><span>CSS</span><i></i><em>85%</em></li>
+        <li style="--v:75%"><span>Git</span><i></i><em>75%</em></li>
+        <li style="--v:80%"><span>GitHub</span><i></i><em>80%</em></li>
+      </ul>
+    </section>
+
+    <section class="wrap" id="journey">
+      <h2>Education and experience</h2>
+      <ol class="timeline">
+        <li><span class="when">Currently studying</span><h3>B.E. in Computer Engineering</h3><p>Xavier Institute of Engineering, Mahim, Mumbai.</p></li>
+        <li><span class="when">Projects</span><h3>Three hands-on projects</h3><p>Built an ANPR system, a hand gesture recognition app and a shop website.</p></li>
+      </ol>
+    </section>
+
+    <section class="wrap" id="faq">
+      <h2>Quick questions</h2>
+      <details><summary>What kind of work are you looking for?</summary><p>Internships and junior roles in software development, computer vision or web development.</p></details>
+      <details><summary>How do you build a project?</summary><p>I start with a small working version, test it, and improve it step by step. I commit to Git often so every change is recorded.</p></details>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <h2>Let's work together</h2>
+        <p>Send a message and I will reply within two days.</p>
+        <form class="form" action="mailto:you@example.com" method="post" enctype="text/plain">
+          <label for="n">Your name</label>
+          <input id="n" name="name" type="text" required autocomplete="name">
+          <label for="e">Your email</label>
+          <input id="e" name="email" type="email" required autocomplete="email">
+          <label for="m">Message</label>
+          <textarea id="m" name="message" rows="4" required minlength="10"></textarea>
+          <button class="btn light" type="submit">Send message</button>
+        </form>
+        <address class="social"><a href="https://github.com/your-username">GitHub</a><a href="https://www.linkedin.com/in/your-username">LinkedIn</a></address>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">&copy; 2026 Arnav Devlekar. Built with HTML5 and CSS only.</footer>
+  <a class="top" href="#top" aria-label="Back to top">&uarr;</a>
+
+  <div class="lightbox" id="p1"><a class="close" href="#projects" aria-label="Close">&times;</a>
+    <article class="panel"><img src="images/anpr.jpg" alt="ANPR system detecting the plate DL 3C BP 2331">
+      <div class="info">
+        <h3>ANPR: Automatic Number Plate Recognition</h3>
+        <p>A system that looks at a picture or video of a vehicle, finds the number plate and reads the text on it. In the example, the plate DL 3C BP 2331 is picked out of the car and shown in the software window.</p>
+        <h4>How it works</h4>
+        <ol class="list"><li>Capture a frame from an image or video.</li><li>Find the number plate on the vehicle.</li><li>Clean up the plate image and separate the characters.</li><li>Read the characters with OCR.</li><li>Show or save the plate number.</li></ol>
+        <h4>Where it is used</h4>
+        <ul class="list"><li>Toll booths and parking lots</li><li>Traffic rule enforcement</li><li>Entry gates of buildings and societies</li></ul>
+        <h4>Technologies</h4>
+        <ul class="chips"><li>Python</li><li>OpenCV</li><li>OCR</li><li>Git</li></ul>
+        <p class="links"><a href="#">GitHub</a><a href="#projects">Back to projects</a></p>
+      </div></article></div>
+
+  <div class="lightbox" id="p2"><a class="close" href="#projects" aria-label="Close">&times;</a>
+    <article class="panel"><img src="images/handgesture.jpg" alt="Hand gesture recognition window showing key points on an open hand">
+      <div class="info">
+        <h3>Hand Gesture Recognition</h3>
+        <p>A real-time app that uses the webcam to find a hand, mark 21 key points on it and recognise the gesture. The screen shows which hand it sees (Right: Open), the current gesture (Stop) and the speed at about 30 frames per second.</p>
+        <h4>How it works</h4>
+        <ol class="list"><li>Read live video from the webcam.</li><li>Detect the hand and its key points on every frame.</li><li>Compare the key points with known gestures.</li><li>Show the result on screen along with the FPS.</li></ol>
+        <h4>Features</h4>
+        <ul class="list"><li>Left and right hand detection</li><li>Real-time speed of about 30 FPS</li><li>A logging mode to record key points for new gestures</li></ul>
+        <h4>Technologies</h4>
+        <ul class="chips"><li>Python</li><li>OpenCV</li><li>MediaPipe</li><li>Git</li></ul>
+        <p class="links"><a href="#">GitHub</a><a href="#projects">Back to projects</a></p>
+      </div></article></div>
+
+  <div class="lightbox" id="p3"><a class="close" href="#projects" aria-label="Close">&times;</a>
+    <article class="panel"><img src="images/shop.svg" alt="Preview of the shop website">
+      <div class="info">
+        <h3>Website for a Shop</h3>
+        <p>A simple website that lets customers see what a shop sells and how to find it. It is built with plain HTML5 and CSS so it loads quickly, even on a slow phone connection.</p>
+        <h4>Features</h4>
+        <ul class="list"><li>Layout that adapts to phones, tablets and computers</li><li>Clear sections for products, about and contact</li><li>Shop address and contact details</li><li>Hosted free on GitHub Pages</li></ul>
+        <h4>Technologies</h4>
+        <ul class="chips"><li>HTML5</li><li>CSS</li><li>Git</li><li>GitHub Pages</li></ul>
+        <p class="links"><a href="#">Live site</a><a href="#">GitHub</a><a href="#projects">Back to projects</a></p>
+      </div></article></div>
+</body>
+</html>
